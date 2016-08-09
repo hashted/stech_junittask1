@@ -1,0 +1,137 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 40,
+        "passed" : 29,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 11,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1470675476237,
+        "stop" : 1470675476690,
+        "duration" : 453
+      }
+    },
+    "defects" : {
+      "totalCount" : 11,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "252146a6cca4b917",
+        "message" : "AssertionError: expected:<26.0> but was:<16.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "59ddb7e9ed955b3b",
+        "message" : "AssertionError: expected:<-4368.0> but was:<4368.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "bbf7afe03881a9e4",
+        "message" : "AssertionError: expected:<455.0> but was:<456.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "e87718b569384659",
+        "message" : "AssertionError: expected:<53.0> but was:<54.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "a6b36a45cd55975a",
+        "message" : "AssertionError: expected:<3.0> but was:<290.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "5ad63e9c72bcac49",
+        "message" : "AssertionError: expected:<45172.0> but was:<45171.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "680f405f47868688",
+        "message" : "AssertionError: expected:<4.0> but was:<2.0>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "78c4734e94d2d96c",
+        "message" : "AssertionError: expected <0.0>. Error: Div by zero",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "572f3e1710e4fa21",
+        "message" : "AssertionError: expected:<57.0> but was:<0.7142857313156128>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "a7fb4164979d10eb",
+        "message" : "AssertionError: expected:<10.0> but was:<9.0>",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 4,
+      "items" : [ {
+        "uid" : "b54417c9f04ea76",
+        "title" : "Тест выражений с оператором вычитания",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 7,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 3,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "3ca8f70d51304c7f",
+        "title" : "Тест выражений с оператором деления",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 7,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 3,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "c0fa57f0ef012a35",
+        "title" : "Тест выражений с оператором сложения",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 8,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 2,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "c1c166e9b99f29ad",
+        "title" : "Тест выражений с оператором умножения",
+        "statistic" : {
+          "total" : 10,
+          "passed" : 7,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 3,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Арифметические действия",
+        "statistic" : {
+          "total" : 40,
+          "passed" : 29,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 11,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

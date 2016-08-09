@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE! - in com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest
+ParameterizeTest[Тест №1: Проверка, что (56-2)=53](com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<53.0> but was:<54.0>
+	at com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest.ParameterizeTest(SubtractionOperatorParameterizeTest.java:41)
+
+ParameterizeTest[Тест №6: Проверка, что (346-56)=3](com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<3.0> but was:<290.0>
+	at com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest.ParameterizeTest(SubtractionOperatorParameterizeTest.java:41)
+
+ParameterizeTest[Тест №9: Проверка, что (45829-658)=45172](com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<45172.0> but was:<45171.0>
+	at com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest.ParameterizeTest(SubtractionOperatorParameterizeTest.java:41)
+

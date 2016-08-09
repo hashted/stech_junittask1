@@ -1,0 +1,86 @@
+{
+  "uid" : "d6aabc58f3a873ce",
+  "name" : "ParameterizeTest[Тест №8: Проверка, что (-23+45)=22]",
+  "title" : "Parameterize test [Тест №8: Проверка, что (-23+45)=22]",
+  "time" : {
+    "start" : 1470675476483,
+    "stop" : 1470675476483,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Проверка результата арифметического действия.\r\nПроверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c0fa57f0ef012a35",
+    "name" : "com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest",
+    "title" : "Тест выражений с оператором сложения"
+  },
+  "steps" : [ {
+    "name" : "ParameterizeTest",
+    "title" : "Проверка результата вычислений.",
+    "time" : {
+      "start" : 1470675476483,
+      "stop" : 1470675476483,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "AddingFunction[-23, 45]",
+      "title" : "Выполнение операции сложения.",
+      "time" : {
+        "start" : 1470675476483,
+        "stop" : 1470675476483,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Оператор сложения"
+  }, {
+    "name" : "feature",
+    "value" : "Арифметические действия"
+  }, {
+    "name" : "host",
+    "value" : "hashted"
+  }, {
+    "name" : "thread",
+    "value" : "7524@hashted.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "Тест выражений с оператором сложения"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

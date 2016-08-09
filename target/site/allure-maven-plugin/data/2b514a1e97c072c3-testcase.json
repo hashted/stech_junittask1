@@ -1,0 +1,101 @@
+{
+  "uid" : "2b514a1e97c072c3",
+  "name" : "ParameterizeTest[Тест №8: Проверка, что (456/-34575)=-0.0131]",
+  "title" : "Parameterize test [Тест №8: Проверка, что (456/-34575)=-0.0131]",
+  "time" : {
+    "start" : 1470675476534,
+    "stop" : 1470675476535,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Проверка результата арифметического действия.\r\nПроверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3ca8f70d51304c7f",
+    "name" : "com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest",
+    "title" : "Тест выражений с оператором деления"
+  },
+  "steps" : [ {
+    "name" : "ParameterizeTest",
+    "title" : "Проверка результата вычислений.",
+    "time" : {
+      "start" : 1470675476534,
+      "stop" : 1470675476535,
+      "duration" : 1
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "ifZero[-34575]",
+      "title" : "Проверка делителя.",
+      "time" : {
+        "start" : 1470675476535,
+        "stop" : 1470675476535,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "DivisionFunction[456, -34575]",
+      "title" : "Выполнение операции деления.",
+      "time" : {
+        "start" : 1470675476535,
+        "stop" : 1470675476535,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Оператор деления"
+  }, {
+    "name" : "feature",
+    "value" : "Арифметические действия"
+  }, {
+    "name" : "host",
+    "value" : "hashted"
+  }, {
+    "name" : "thread",
+    "value" : "7524@hashted.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "Тест выражений с оператором деления"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

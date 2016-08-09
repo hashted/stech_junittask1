@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest
+ParameterizeTest[Тест №1: Проверка, что (4/2)=4](com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<4.0> but was:<2.0>
+	at com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest.ParameterizeTest(DivisionOperatorParameterizeTest.java:45)
+
+ParameterizeTest[Тест №5: Проверка, что (25/0)=0](com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected <0.0>. Error: Div by zero
+	at com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest.ParameterizeTest(DivisionOperatorParameterizeTest.java:43)
+
+ParameterizeTest[Тест №9: Проверка, что (5/7)=57](com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<57.0> but was:<0.7142857313156128>
+	at com.mycompany.stech_junittask1.DivisionOperatorParameterizeTest.ParameterizeTest(DivisionOperatorParameterizeTest.java:45)
+

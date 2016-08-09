@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE! - in com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest
+ParameterizeTest[Тест №2: Проверка, что (4*4)=26](com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<26.0> but was:<16.0>
+	at com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest.ParameterizeTest(MultiplicationOperatorParameterizeTest.java:41)
+
+ParameterizeTest[Тест №5: Проверка, что (56*78)=-4368](com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<-4368.0> but was:<4368.0>
+	at com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest.ParameterizeTest(MultiplicationOperatorParameterizeTest.java:41)
+
+ParameterizeTest[Тест №8: Проверка, что (1*456)=455](com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<455.0> but was:<456.0>
+	at com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest.ParameterizeTest(MultiplicationOperatorParameterizeTest.java:41)
+

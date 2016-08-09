@@ -1,0 +1,86 @@
+{
+  "uid" : "cdccdce462210d6d",
+  "name" : "ParameterizeTest[Тест №7: Проверка, что (-0*0)=0]",
+  "title" : "Parameterize test [Тест №7: Проверка, что (-0*0)=0]",
+  "time" : {
+    "start" : 1470675476639,
+    "stop" : 1470675476640,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Проверка результата арифметического действия.\r\nПроверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c1c166e9b99f29ad",
+    "name" : "com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest",
+    "title" : "Тест выражений с оператором умножения"
+  },
+  "steps" : [ {
+    "name" : "ParameterizeTest",
+    "title" : "Проверка результата вычислений.",
+    "time" : {
+      "start" : 1470675476640,
+      "stop" : 1470675476640,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "MultiplicationFunction[0, 0]",
+      "title" : "Выполнение операции умножения.",
+      "time" : {
+        "start" : 1470675476640,
+        "stop" : 1470675476640,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Оператор умножения"
+  }, {
+    "name" : "feature",
+    "value" : "Арифметические действия"
+  }, {
+    "name" : "host",
+    "value" : "hashted"
+  }, {
+    "name" : "thread",
+    "value" : "7524@hashted.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.mycompany.stech_junittask1.MultiplicationOperatorParameterizeTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "Тест выражений с оператором умножения"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

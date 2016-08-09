@@ -1,0 +1,449 @@
+{
+  "hosts" : [ {
+    "title" : "hashted",
+    "threads" : [ {
+      "title" : "7524@hashted.main(1)",
+      "testCases" : [ {
+        "uid" : "bd4acb35d1a72108",
+        "name" : "ParameterizeTest[Тест №0: Проверка, что (-24*5)=-120]",
+        "title" : "Parameterize test [Тест №0: Проверка, что (-24*5)=-120]",
+        "time" : {
+          "start" : 1470675476548,
+          "stop" : 1470675476549,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2ecf9a8082076220",
+        "name" : "ParameterizeTest[Тест №1: Проверка, что (4*4)=16]",
+        "title" : "Parameterize test [Тест №1: Проверка, что (4*4)=16]",
+        "time" : {
+          "start" : 1470675476550,
+          "stop" : 1470675476554,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d7282a5bf4208ab3",
+        "name" : "ParameterizeTest[Тест №2: Проверка, что (4*4)=26]",
+        "title" : "Parameterize test [Тест №2: Проверка, что (4*4)=26]",
+        "time" : {
+          "start" : 1470675476624,
+          "stop" : 1470675476626,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "eb2f0e27d94e0825",
+        "name" : "ParameterizeTest[Тест №3: Проверка, что (21*554)=11634]",
+        "title" : "Parameterize test [Тест №3: Проверка, что (21*554)=11634]",
+        "time" : {
+          "start" : 1470675476628,
+          "stop" : 1470675476629,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7e81692b6d950e2d",
+        "name" : "ParameterizeTest[Тест №4: Проверка, что (45*3)=135]",
+        "title" : "Parameterize test [Тест №4: Проверка, что (45*3)=135]",
+        "time" : {
+          "start" : 1470675476630,
+          "stop" : 1470675476631,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "4cddf36d2a34766f",
+        "name" : "ParameterizeTest[Тест №5: Проверка, что (56*78)=-4368]",
+        "title" : "Parameterize test [Тест №5: Проверка, что (56*78)=-4368]",
+        "time" : {
+          "start" : 1470675476632,
+          "stop" : 1470675476636,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "3269359b59b0a497",
+        "name" : "ParameterizeTest[Тест №6: Проверка, что (-1*24)=-24]",
+        "title" : "Parameterize test [Тест №6: Проверка, что (-1*24)=-24]",
+        "time" : {
+          "start" : 1470675476637,
+          "stop" : 1470675476638,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cdccdce462210d6d",
+        "name" : "ParameterizeTest[Тест №7: Проверка, что (-0*0)=0]",
+        "title" : "Parameterize test [Тест №7: Проверка, что (-0*0)=0]",
+        "time" : {
+          "start" : 1470675476639,
+          "stop" : 1470675476640,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b4862bda9db84c58",
+        "name" : "ParameterizeTest[Тест №8: Проверка, что (1*456)=455]",
+        "title" : "Parameterize test [Тест №8: Проверка, что (1*456)=455]",
+        "time" : {
+          "start" : 1470675476641,
+          "stop" : 1470675476642,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "927cca82b551723",
+        "name" : "ParameterizeTest[Тест №9: Проверка, что (2747*4593)=12616971]",
+        "title" : "Parameterize test [Тест №9: Проверка, что (2747*4593)=12616971]",
+        "time" : {
+          "start" : 1470675476644,
+          "stop" : 1470675476644,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "729badf13158ad3e",
+        "name" : "ParameterizeTest[Тест №0: Проверка, что (56-2)=54]",
+        "title" : "Parameterize test [Тест №0: Проверка, что (56-2)=54]",
+        "time" : {
+          "start" : 1470675476660,
+          "stop" : 1470675476660,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5c710ddddf9fcc66",
+        "name" : "ParameterizeTest[Тест №1: Проверка, что (56-2)=53]",
+        "title" : "Parameterize test [Тест №1: Проверка, что (56-2)=53]",
+        "time" : {
+          "start" : 1470675476661,
+          "stop" : 1470675476663,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "5bb4b427deb2b15",
+        "name" : "ParameterizeTest[Тест №2: Проверка, что (3-7)=-4]",
+        "title" : "Parameterize test [Тест №2: Проверка, что (3-7)=-4]",
+        "time" : {
+          "start" : 1470675476664,
+          "stop" : 1470675476672,
+          "duration" : 8
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e52fdf3eda31b2d2",
+        "name" : "ParameterizeTest[Тест №3: Проверка, что (0-0)=0]",
+        "title" : "Parameterize test [Тест №3: Проверка, что (0-0)=0]",
+        "time" : {
+          "start" : 1470675476673,
+          "stop" : 1470675476674,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "36efc6fe32264f8d",
+        "name" : "ParameterizeTest[Тест №4: Проверка, что (105--46)=151]",
+        "title" : "Parameterize test [Тест №4: Проверка, что (105--46)=151]",
+        "time" : {
+          "start" : 1470675476677,
+          "stop" : 1470675476678,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c70e0f3fd998c8c8",
+        "name" : "ParameterizeTest[Тест №5: Проверка, что (56-0)=56]",
+        "title" : "Parameterize test [Тест №5: Проверка, что (56-0)=56]",
+        "time" : {
+          "start" : 1470675476680,
+          "stop" : 1470675476680,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "92be311edf0bc157",
+        "name" : "ParameterizeTest[Тест №6: Проверка, что (346-56)=3]",
+        "title" : "Parameterize test [Тест №6: Проверка, что (346-56)=3]",
+        "time" : {
+          "start" : 1470675476681,
+          "stop" : 1470675476684,
+          "duration" : 3
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "c0749937cc4b3ecb",
+        "name" : "ParameterizeTest[Тест №7: Проверка, что (569-358)=211]",
+        "title" : "Parameterize test [Тест №7: Проверка, что (569-358)=211]",
+        "time" : {
+          "start" : 1470675476686,
+          "stop" : 1470675476686,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3269faae70451fa1",
+        "name" : "ParameterizeTest[Тест №8: Проверка, что (22227-5699)=16528]",
+        "title" : "Parameterize test [Тест №8: Проверка, что (22227-5699)=16528]",
+        "time" : {
+          "start" : 1470675476688,
+          "stop" : 1470675476688,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f7d2453f43402860",
+        "name" : "ParameterizeTest[Тест №9: Проверка, что (45829-658)=45172]",
+        "title" : "Parameterize test [Тест №9: Проверка, что (45829-658)=45172]",
+        "time" : {
+          "start" : 1470675476689,
+          "stop" : 1470675476690,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "3c29cffc88bc269a",
+        "name" : "ParameterizeTest[Тест №0: Проверка, что (4/2)=2]",
+        "title" : "Parameterize test [Тест №0: Проверка, что (4/2)=2]",
+        "time" : {
+          "start" : 1470675476508,
+          "stop" : 1470675476510,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bd318b03247d9452",
+        "name" : "ParameterizeTest[Тест №1: Проверка, что (4/2)=4]",
+        "title" : "Parameterize test [Тест №1: Проверка, что (4/2)=4]",
+        "time" : {
+          "start" : 1470675476516,
+          "stop" : 1470675476517,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "c6ae09bd09fbbc14",
+        "name" : "ParameterizeTest[Тест №2: Проверка, что (4/3)=1.3333]",
+        "title" : "Parameterize test [Тест №2: Проверка, что (4/3)=1.3333]",
+        "time" : {
+          "start" : 1470675476518,
+          "stop" : 1470675476520,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6125f76e86dffb19",
+        "name" : "ParameterizeTest[Тест №3: Проверка, что (89/24569)=0.0036]",
+        "title" : "Parameterize test [Тест №3: Проверка, что (89/24569)=0.0036]",
+        "time" : {
+          "start" : 1470675476521,
+          "stop" : 1470675476525,
+          "duration" : 4
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "947b43e07e6fd327",
+        "name" : "ParameterizeTest[Тест №4: Проверка, что (112/10)=11.2]",
+        "title" : "Parameterize test [Тест №4: Проверка, что (112/10)=11.2]",
+        "time" : {
+          "start" : 1470675476526,
+          "stop" : 1470675476527,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "26f50ff45ea18989",
+        "name" : "ParameterizeTest[Тест №5: Проверка, что (25/0)=0]",
+        "title" : "Parameterize test [Тест №5: Проверка, что (25/0)=0]",
+        "time" : {
+          "start" : 1470675476528,
+          "stop" : 1470675476529,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "b0f8faa943bfee78",
+        "name" : "ParameterizeTest[Тест №6: Проверка, что (45/2)=22.5]",
+        "title" : "Parameterize test [Тест №6: Проверка, что (45/2)=22.5]",
+        "time" : {
+          "start" : 1470675476531,
+          "stop" : 1470675476531,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "eced39d704b42044",
+        "name" : "ParameterizeTest[Тест №7: Проверка, что (567/78)=7.2692]",
+        "title" : "Parameterize test [Тест №7: Проверка, что (567/78)=7.2692]",
+        "time" : {
+          "start" : 1470675476532,
+          "stop" : 1470675476533,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2b514a1e97c072c3",
+        "name" : "ParameterizeTest[Тест №8: Проверка, что (456/-34575)=-0.0131]",
+        "title" : "Parameterize test [Тест №8: Проверка, что (456/-34575)=-0.0131]",
+        "time" : {
+          "start" : 1470675476534,
+          "stop" : 1470675476535,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a1c938d7b83fa2ba",
+        "name" : "ParameterizeTest[Тест №9: Проверка, что (5/7)=57]",
+        "title" : "Parameterize test [Тест №9: Проверка, что (5/7)=57]",
+        "time" : {
+          "start" : 1470675476536,
+          "stop" : 1470675476537,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "b4d8e271a51ff8ad",
+        "name" : "ParameterizeTest[Тест №0: Проверка, что (2+5)=7]",
+        "title" : "Parameterize test [Тест №0: Проверка, что (2+5)=7]",
+        "time" : {
+          "start" : 1470675476237,
+          "stop" : 1470675476328,
+          "duration" : 91
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e0a690688ddd2e63",
+        "name" : "ParameterizeTest[Тест №1: Проверка, что (3+6)=10]",
+        "title" : "Parameterize test [Тест №1: Проверка, что (3+6)=10]",
+        "time" : {
+          "start" : 1470675476330,
+          "stop" : 1470675476464,
+          "duration" : 134
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "cde08b941733247c",
+        "name" : "ParameterizeTest[Тест №2: Проверка, что (45+6)=51]",
+        "title" : "Parameterize test [Тест №2: Проверка, что (45+6)=51]",
+        "time" : {
+          "start" : 1470675476466,
+          "stop" : 1470675476467,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "80b9e2f66843e598",
+        "name" : "ParameterizeTest[Тест №3: Проверка, что (100+23)=123]",
+        "title" : "Parameterize test [Тест №3: Проверка, что (100+23)=123]",
+        "time" : {
+          "start" : 1470675476468,
+          "stop" : 1470675476468,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2e83c983a67e771b",
+        "name" : "ParameterizeTest[Тест №4: Проверка, что (1+56)=58]",
+        "title" : "Parameterize test [Тест №4: Проверка, что (1+56)=58]",
+        "time" : {
+          "start" : 1470675476470,
+          "stop" : 1470675476472,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "34307f16088ec554",
+        "name" : "ParameterizeTest[Тест №5: Проверка, что (23+78)=101]",
+        "title" : "Parameterize test [Тест №5: Проверка, что (23+78)=101]",
+        "time" : {
+          "start" : 1470675476475,
+          "stop" : 1470675476476,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "6d64aaea7e7f5a30",
+        "name" : "ParameterizeTest[Тест №6: Проверка, что (45+45)=90]",
+        "title" : "Parameterize test [Тест №6: Проверка, что (45+45)=90]",
+        "time" : {
+          "start" : 1470675476477,
+          "stop" : 1470675476478,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2297c0b48f0f0c77",
+        "name" : "ParameterizeTest[Тест №7: Проверка, что (4+99)=103]",
+        "title" : "Parameterize test [Тест №7: Проверка, что (4+99)=103]",
+        "time" : {
+          "start" : 1470675476479,
+          "stop" : 1470675476480,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d6aabc58f3a873ce",
+        "name" : "ParameterizeTest[Тест №8: Проверка, что (-23+45)=22]",
+        "title" : "Parameterize test [Тест №8: Проверка, что (-23+45)=22]",
+        "time" : {
+          "start" : 1470675476483,
+          "stop" : 1470675476483,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "83969c766b489f2b",
+        "name" : "ParameterizeTest[Тест №9: Проверка, что (0+0)=0]",
+        "title" : "Parameterize test [Тест №9: Проверка, что (0+0)=0]",
+        "time" : {
+          "start" : 1470675476484,
+          "stop" : 1470675476485,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

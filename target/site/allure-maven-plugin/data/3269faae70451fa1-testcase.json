@@ -1,0 +1,86 @@
+{
+  "uid" : "3269faae70451fa1",
+  "name" : "ParameterizeTest[Тест №8: Проверка, что (22227-5699)=16528]",
+  "title" : "Parameterize test [Тест №8: Проверка, что (22227-5699)=16528]",
+  "time" : {
+    "start" : 1470675476688,
+    "stop" : 1470675476688,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Проверка результата арифметического действия.\r\nПроверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b54417c9f04ea76",
+    "name" : "com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest",
+    "title" : "Тест выражений с оператором вычитания"
+  },
+  "steps" : [ {
+    "name" : "ParameterizeTest",
+    "title" : "Проверка результата вычислений.",
+    "time" : {
+      "start" : 1470675476688,
+      "stop" : 1470675476688,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "SubtractionFunction[22227, 5699]",
+      "title" : "Выполнение операции вычитания.",
+      "time" : {
+        "start" : 1470675476688,
+        "stop" : 1470675476688,
+        "duration" : 0
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Оператор вычитания"
+  }, {
+    "name" : "feature",
+    "value" : "Арифметические действия"
+  }, {
+    "name" : "host",
+    "value" : "hashted"
+  }, {
+    "name" : "thread",
+    "value" : "7524@hashted.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "com.mycompany.stech_junittask1.SubtractionOperatorParameterizeTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "Тест выражений с оператором вычитания"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

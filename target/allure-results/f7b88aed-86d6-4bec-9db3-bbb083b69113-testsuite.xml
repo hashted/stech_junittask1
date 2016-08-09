@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1470675475166" stop="1470675483967" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest</name>
+    <title>Тест выражений с оператором сложения</title>
+    <description type="text">Проверка результата арифметического действия.</description>
+    <test-cases>
+        <test-case start="1470675476237" stop="1470675476328" status="passed">
+            <name>ParameterizeTest[Тест №0: Проверка, что (2+5)=7]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <steps>
+                <step start="1470675476287" stop="1470675476309" status="passed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1470675476304" stop="1470675476309" status="passed">
+                            <name>AddingFunction[2, 5]</name>
+                            <title>Выполнение операции сложения.</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476330" stop="1470675476464" status="failed">
+            <name>ParameterizeTest[Тест №1: Проверка, что (3+6)=10]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <failure>
+                <message>AssertionError: expected:&lt;10.0&gt; but was:&lt;9.0&gt;</message>
+                <stack-trace>java.lang.AssertionError: expected:&lt;10.0&gt; but was:&lt;9.0&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:575)
+	at org.junit.Assert.assertEquals(Assert.java:700)
+	at com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest.ParameterizeTest(AdditionOperatorParameterizeTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1470675476330" stop="1470675476338" status="failed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <steps>
+                        <step start="1470675476331" stop="1470675476331" status="passed">
+                            <name>AddingFunction[3, 6]</name>
+                            <title>Выполнение операции сложения.</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476466" stop="1470675476467" status="passed">
+            <name>ParameterizeTest[Тест №2: Проверка, что (45+6)=51]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <steps>
+                <step start="1470675476466" stop="1470675476466" status="passed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1470675476466" stop="1470675476466" status="passed">
+                            <name>AddingFunction[45, 6]</name>
+                            <title>Выполнение операции сложения.</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476468" stop="1470675476468" status="passed">
+            <name>ParameterizeTest[Тест №3: Проверка, что (100+23)=123]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <steps>
+                <step start="1470675476468" stop="1470675476468" status="passed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1470675476468" stop="1470675476468" status="passed">
+                            <name>AddingFunction[100, 23]</name>
+                            <title>Выполнение операции сложения.</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476470" stop="1470675476472" status="failed">
+            <name>ParameterizeTest[Тест №4: Проверка, что (1+56)=58]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <failure>
+                <message>AssertionError: expected:&lt;58.0&gt; but was:&lt;57.0&gt;</message>
+                <stack-trace>java.lang.AssertionError: expected:&lt;58.0&gt; but was:&lt;57.0&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:575)
+	at org.junit.Assert.assertEquals(Assert.java:700)
+	at com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest.ParameterizeTest(AdditionOperatorParameterizeTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1470675476470" stop="1470675476471" status="failed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <steps>
+                        <step start="1470675476470" stop="1470675476470" status="passed">
+                            <name>AddingFunction[1, 56]</name>
+                            <title>Выполнение операции сложения.</title>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476475" stop="1470675476476" status="passed">
+            <name>ParameterizeTest[Тест №5: Проверка, что (23+78)=101]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <steps>
+                <step start="1470675476475" stop="1470675476475" status="passed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1470675476475" stop="1470675476475" status="passed">
+                            <name>AddingFunction[23, 78]</name>
+                            <title>Выполнение операции сложения.</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476477" stop="1470675476478" status="passed">
+            <name>ParameterizeTest[Тест №6: Проверка, что (45+45)=90]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <steps>
+                <step start="1470675476477" stop="1470675476478" status="passed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1470675476478" stop="1470675476478" status="passed">
+                            <name>AddingFunction[45, 45]</name>
+                            <title>Выполнение операции сложения.</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476479" stop="1470675476480" status="passed">
+            <name>ParameterizeTest[Тест №7: Проверка, что (4+99)=103]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <steps>
+                <step start="1470675476480" stop="1470675476480" status="passed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1470675476480" stop="1470675476480" status="passed">
+                            <name>AddingFunction[4, 99]</name>
+                            <title>Выполнение операции сложения.</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476483" stop="1470675476483" status="passed">
+            <name>ParameterizeTest[Тест №8: Проверка, что (-23+45)=22]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <steps>
+                <step start="1470675476483" stop="1470675476483" status="passed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1470675476483" stop="1470675476483" status="passed">
+                            <name>AddingFunction[-23, 45]</name>
+                            <title>Выполнение операции сложения.</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1470675476484" stop="1470675476485" status="passed">
+            <name>ParameterizeTest[Тест №9: Проверка, что (0+0)=0]</name>
+            <description type="text">Проверяется арифметическое действие над двумя операндами.  Реальный результат арифметического действия сравнивается с данными из тестового файла, на основе чего делается вывод о корректности тестового выражения.</description>
+            <steps>
+                <step start="1470675476485" stop="1470675476485" status="passed">
+                    <name>ParameterizeTest</name>
+                    <title>Проверка результата вычислений.</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1470675476485" stop="1470675476485" status="passed">
+                            <name>AddingFunction[0, 0]</name>
+                            <title>Выполнение операции сложения.</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Оператор сложения"/>
+                <label name="feature" value="Арифметические действия"/>
+                <label name="host" value="hashted"/>
+                <label name="thread" value="7524@hashted.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

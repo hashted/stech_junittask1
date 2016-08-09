@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.944 sec <<< FAILURE! - in com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest
+ParameterizeTest[Тест №1: Проверка, что (3+6)=10](com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest)  Time elapsed: 0.045 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<10.0> but was:<9.0>
+	at com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest.ParameterizeTest(AdditionOperatorParameterizeTest.java:41)
+
+ParameterizeTest[Тест №4: Проверка, что (1+56)=58](com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<58.0> but was:<57.0>
+	at com.mycompany.stech_junittask1.AdditionOperatorParameterizeTest.ParameterizeTest(AdditionOperatorParameterizeTest.java:41)
+
